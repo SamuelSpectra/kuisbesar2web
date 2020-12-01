@@ -1,0 +1,198 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+    <!-- My CSS -->
+    <link rel="stylesheet" href="style_booking.css">
+
+    <title>Booking</title>
+  </head>
+  <body>
+    <!-- Jumbotron -->
+    <div class="jumbotron jumbotron-fluid">
+       <div class="container">
+         <h1 class="display-4">Hi <span>Friend</span><br><span>Where</span> You Will Go?</h1>
+      </div>
+    </div>
+
+    <!-- Content -->
+    <sectio class="content">
+      <div class="container">
+        <div class="row justify-content-center">
+          <!-- Step -->
+          <div class="col-lg-3">
+            <div class="number d-none d-lg-block">
+              <div class="row justify-content-center card step">
+                <div class="col-2 step active">
+                  <img src="img/1.png" alt="1">
+                </div>
+                <div class="col-8 text-center">
+                  <p>Fill In</p>
+                </div>
+              </div>
+            </div>
+            
+            <div class="number d-none d-lg-block">
+              <div class="row justify-content-center card step">
+                <div class="col-2 step">
+                  <img src="img/2.png" alt="2">
+                </div>
+                <div class="col-8 text-center">
+                  <p>Choose</p>
+                </div>
+              </div>
+            </div>    
+            
+            <div class="number d-none d-lg-block">
+              <div class="row justify-content-center card step active">
+                <div class="col-2 step">
+                  <img src="img/3.png" alt="3">
+                </div>
+                <div class="col-8 text-center">
+                  <p>Contact</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="number d-none d-lg-block">
+              <div class="row justify-content-center card step">
+                <div class="col-2 step">
+                  <img src="img/4.png" alt="4">
+                </div>
+                <div class="col-8 text-center">
+                  <p>Payment</p>
+                </div>
+              </div>
+            </div>            
+
+            <div class="number d-none d-lg-block">
+              <div class="row justify-content-center card step">
+                <div class="col-2 step">
+                  <img src="img/5.png" alt="5">
+                </div>
+                <div class="col-8 text-center">
+                  <p>Invoice</p>
+                </div>
+              </div>
+            </div>   
+            
+            <div class="visText d-lg-none d-xl-blockk">
+              <p>Step 3 : Contact</p>
+            </div>
+          </div>
+          <!-- End Step -->
+          <!-- Main Content -->
+          <div class="col-lg-7 cardMain">
+            <div class="contact container">
+              <h4>Adult</h4>
+              <ol>
+                <li>
+                  <form>
+                    <div class="form">
+                      <div class="row">
+                        <div class="col-lg-4">
+                          <label for="exampleFormControlInput1">Full Name</label>
+                        </div>
+                        <div class="col-lg-7">
+                          <input type="text" class="form-control" id="name" placeholder="Full Name">
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="form my-3">
+                      <div class="row">
+                        <div class="col-lg-4">
+                          <label for="exampleFormControlInput1">E-mail</label>
+                        </div>
+                        <div class="col-lg-7">
+                          <input type="email" class="form-control" id="name" placeholder="name@example.com">
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="form my-3">
+                      <div class="row">
+                        <div class="col-lg-4">
+                          <label for="exampleFormControlInput1">Phone Number</label>
+                        </div>
+                        <div class="col-lg-7">
+                          <input type="text" class="form-control" id="name" placeholder="08xx xxxx xxxx">                          
+                        </div>
+                      </div>
+                    </div>
+                  </form>
+                </li>
+              </ol>
+
+              <div class="row">
+                <div class="col-3">
+                  <div class="addNew rounded-circle">
+                    <p>+</p>
+                  </div>
+                </div>
+                <div class="col newPass">
+                  <p>Add New Passengers</p>
+                </div>
+              </div>              
+            </div>
+
+            <div class="contact container">
+              <h4>Children</h4> 
+
+              <div class="row">
+                <div class="col-3">
+                  <div class="addNew rounded-circle">
+                    <p>+</p>
+                  </div>
+                </div>
+                <div class="col newPass">
+                  <p>Add New Passengers</p>
+                </div>
+              </div>              
+            </div>
+
+            <div class="contact container">
+              <h4>Baby</h4> 
+
+              <div class="row">
+                <div class="col-3">
+                  <div class="addNew rounded-circle">
+                    <p>+</p>
+                  </div>
+                </div>
+                <div class="col newPass">
+                  <p>Add New Passengers</p>
+                </div>
+              </div>              
+            </div>
+
+            <div class="backnext">
+              <button type="button" class="btn btn-info mx-2" onclick="backBtn()">Back</button>
+              <button type="button" class="btn btn-info" onclick="nextBtn()">Next</button>
+            </div>
+          </div>
+          <!-- End Main Content -->
+        </div>
+      </div>
+    </section>
+    <!-- End Content -->  
+
+
+
+
+    <!-- My Js -->
+    <script src="script_booking.js"></script>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+  </body>
+</html>

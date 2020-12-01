@@ -1,0 +1,448 @@
+body {
+    background-color: #eeeeee;
+}
+
+.card {
+    border-radius: 10px;
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
+    height: 50px;
+    margin: 20px 5%;
+}
+
+.cardMain{
+    border-radius: 10px;
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
+    height: fit-content;
+    margin: 20px 5%;
+    padding: 20px 0;
+    background-color: white;
+}
+
+.cardMainS2{
+    border-radius: 10px;
+    height: fit-content;
+    margin: -20px 5% 20px 5%;
+    padding: 20px 0;
+}
+
+.cardSecondary {
+    border-radius: 10px;
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
+    height: fit-content;
+    margin: 20px 0;
+    padding: 20px 0;
+    background-color: white;
+}
+
+/* Jumbotron */
+.jumbotron {
+    background-image: url(img/bg-plane.jpg);
+    background-size: cover;
+    position: relative;
+    height: 500px;
+}
+
+.jumbotron .container {
+    color: white;
+    text-align: center;
+}
+
+.jumbotron .display-4 {
+    color: white;
+    margin-top: 250px;
+    font-weight: 200;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.6);
+    font-size: 40px;
+    margin-bottom: 30px;
+}
+
+.jumbotron .display-4 span {
+    font-weight: 500;
+}
+
+/* Step */
+.step img {
+    width: 35px;
+}
+
+.step p {
+    margin-top: 10%;
+    font-size: 20px;
+    font-weight: bold;
+    color: #565b63;
+    text-align: left;
+}
+
+.step {
+    opacity: 50%;
+    width: 50%;
+}
+
+.active {
+    opacity: 100%;
+}
+
+.visText {
+    color: #00adb5;
+    font-weight: bold;
+    font-size: 32px;
+    text-align: center;
+    margin-bottom: -20px;
+}
+
+/* Content */
+label, h4 {
+    font-weight: 700;
+    font-size: 16px;
+    color: #393e46;
+}
+
+p {
+    font-size: 14px;
+}
+
+/* Step 1 Content */
+.switchBtn {
+    background-color: #00adb5;
+    height: 40px;
+    width: 40px;
+    margin: 30px 0 0 -10px;
+    padding: 1px 0 0 8px;
+}
+
+.switchBtn button i {
+    color: white;
+    font-size: 25px;
+    margin-left: -13px;
+}
+
+.inputPassenger p {
+    color: #565b63;
+}
+
+.plusmin button {
+    width: 30px;
+    height: 30px;
+    padding: 0 0 30px 0;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.plusmin p {
+    font-size: 18px;
+    font-weight: 500;
+    display: inline;
+    position: absolute;
+    margin-left: -2px;
+}
+
+.info {
+    margin-bottom: 0;
+    font-weight: 500;
+}
+
+.subinfo {
+    font-weight: lighter;
+}
+
+.search button {
+    margin-left: 75%;
+    width: 20%;
+    text-align: center;
+}
+
+.select option {
+    background-color: #eeeeee;
+    color: #222831;
+}
+
+/* Step 2 */
+.place {
+    text-align: center;
+}
+
+.place p{
+    color: #393e46;
+    display: inline;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.sideinfo {
+    padding: 5px;
+    text-align: center;
+}
+
+.sideinfo p {
+    display: inline;
+    padding: 0 2px;
+    font-size: 12px;
+    color: #393e46;
+}
+
+.again button {
+    width: 80%;
+    margin-left: 10%;
+}
+
+/* filter */
+.filter {
+    margin-left: 10%;
+}
+
+.filter p {
+    color: #222831;
+    display: inline;
+    margin-right: 20px;
+}
+
+.filter .btn-group {
+    margin-right: 20px;
+}   
+
+/* Maskapai Option */
+.option {
+    margin-left: 20px;
+}
+
+.option img {
+    width: 100px;
+}
+
+.optionTxt p {
+    display: inline;
+    font-size: 16px;
+    font-weight: 500;
+    margin-right: 20px;
+    color: #393e46;
+}
+
+.optionTxt i {
+    margin-right: 25px;
+}
+
+.optionTime {
+    margin-left: 20px;
+}
+
+.optionTime p {
+    display: inline;
+    margin-right: 50px;
+    color: #393e46;
+}
+
+.price {
+    margin-top: 10px;
+    text-align: center;
+}
+
+.price h4,p{
+    color: #00adb5;
+}
+
+.price h4 {
+    display: inline;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.price p {
+    display: inline;
+}
+
+.price button {
+    width: 75%;
+    padding: 0;
+}
+
+.page li a {
+    color: #00adb5;
+}
+
+/* Step 3 */
+.contact h4, label, li{    
+    color: #393e46;
+}
+
+.contact h4 {
+    font-size: 20px;
+    margin-left: 5%;
+    margin-top: 20px;
+}
+
+.contact label, li {
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.contact ol {
+    margin-left: 20px;
+}
+
+.contact .form input {
+    width: 100%;
+}
+
+.addNew {
+    height: 40px;
+    width: 40px;
+    display: block;
+    border: 1px solid gray;
+    margin-left: 80px;
+}
+
+.addNew p {
+    font-weight: 500;
+    font-size: 30px;
+    margin: -5px 0 0 8px;
+    color: gray ;
+}
+
+.newPass p {
+    font-weight: 700;
+    font-size: 16px;
+    color: gray;
+    padding-top: 8px;
+    margin-left: 20px;
+}
+
+.backnext {
+    text-align: center;
+}
+
+.backnext button {
+    width: 100px;
+}
+
+/* Step 4 */
+.payDetails {
+    margin: 20px;
+}
+
+.payDetails h4 {
+    font-size: 18px;
+    font-weight: 700;
+    color: #393e46;
+}
+
+.payDetails button {
+    width: 20%;
+    margin-left: 70%;
+    margin-top: 25px;
+}
+
+.priceList table{
+    max-width: 90%;
+}
+
+.methodPayment button {
+    height: 100px;
+    width: 100px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
+    padding: 10px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    display: inline-block;
+}
+
+.methodPayment img {
+    width: 75px;
+}
+
+.methodPayment form {
+    margin-top: 20px;
+}
+
+.methodPayment input {
+    display: inline;
+    margin-left: 20px;
+    width: 50%;
+}
+
+/* Step 5 */
+.orderID p {
+    font-size: 18px;
+    font-weight: 600;
+    color: #565b63;
+}
+
+.itineary p {
+    color: #565b63;
+    margin-top: 10px;
+    margin-bottom: -10px;
+}
+
+.itineary span {
+    font-weight: 700;
+}
+
+.itineary img {
+    width: 80px;
+}
+
+.itineary button {
+    width: 30%;
+    margin-top: 50px;
+    margin-left: 70%;
+}
+
+/* Desktop Version */
+@media (min-width: 992px) {
+    .jumbotron {
+        height: 640px;  
+    }
+
+    .jumbotron .display-4 {
+        text-align: left;
+        font-size: 45px;
+        margin: 15% 0 0 65%;
+    }
+
+    .step {
+        width: 100%;
+    }
+
+    .miniNav img {
+        width: 50px;
+        padding-top: 10px;
+    }
+
+    .again button {
+        margin: 15px 0 0 -30px;
+        width: fit-content;
+    }
+
+    .place p {
+        display: block;
+        text-align: center;
+    }
+
+    .place i {
+        margin-top: -15px;
+    }
+
+    .sideinfo {
+        margin: -5px 0 0 0;
+    }
+
+    .price {
+        margin-top: 45px;
+    }
+
+    .backnext {
+        margin-left: 55%;
+    }
+
+    .page nav {
+        margin-left: 20%;
+    }
+
+    .contact .form label {
+        margin: 0 20px;
+    }
+
+    .newPass p {
+        margin-left: -20px;        
+    }
+}

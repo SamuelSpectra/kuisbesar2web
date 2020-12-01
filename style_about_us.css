@@ -1,0 +1,324 @@
+/* Navbar */
+.navbar{
+    position: relative;
+    z-index: 1;
+}
+
+.nav-img{
+    width: 120px;
+}
+
+/* Jumbotron */
+.jumbotron{
+    background-image: url(img/jumbotronaboutus.jpg);
+    background-size: cover;
+    height: 300px;
+    position: relative;
+}
+
+/* Tentang Kami */
+.tentang-kami-judul {
+    font-family: 'Poppins', sans-serif;
+    font-size: 52px;
+    font-weight: 600;
+    color: #222831;
+    margin-top: 60px;
+}
+
+.tentang-kami-paragraf1 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    text-align: justify;
+    color: #222831;
+    margin-bottom: 36px;
+    margin-top: 61px;
+}
+
+.tentang-kami-paragraf2 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    text-align: justify;
+    color: #222831;
+}
+
+/* Kelebihan */
+.panel-color {
+    background-color: #00ADB5;
+    margin-top: 98px;
+}
+
+.panel-row2 {
+    padding: 15px;
+}
+
+.panel-center{
+    text-align: center;
+    padding: 10px;
+    font-weight: 600;
+    font-size: 42px;
+    color: #EEEEEE;
+}
+
+.icon-text h4 {
+    text-transform: uppercase;
+    font-size: 15px;
+    font-weight: 600;
+    font-style: italic;
+    margin-top: 18px;
+    color: #EEEEEE;
+}
+
+.icon-text p {
+    font-size: 14px;
+    font-weight: 300;
+    margin-top: 25px;
+    color: #EEEEEE;
+}
+
+.panel-img {
+    margin-bottom: 8px;
+    width: 80px;
+    height: 80px;
+}
+
+.icon-text{
+    text-align: center;
+}
+
+/* Visi & Misi */
+.visi-misi-judul {
+    font-family: 'Poppins', sans-serif;
+    font-size: 52px;
+    font-weight: 600;
+    color: #222831;
+    margin-top: 72px;
+}
+
+.visi-misi-paragraf1 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    text-align: justify;
+    color: #222831;
+    margin-bottom: 36px;
+    margin-top: 60px;
+}
+
+.visi-misi-paragraf2 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    text-align: justify;
+    color: #222831;
+}
+
+/* Social Media */
+.social-media-center{
+    text-align: center;
+    padding: 10px;
+    font-weight: 600;
+    font-size: 29px;
+    color: #EEEEEE;
+}
+
+.social-media-row2 {
+    padding: 15px;
+}
+
+.social-media-row2 ul {
+    position: relative;
+    top: 50%;
+    left: 50%;
+    padding: 0;
+    margin: 0;
+    transform: translate(-50%, -50%);
+    display: flex;
+}
+
+.social-media-row2 ul li {
+    list-style: none;
+    margin: 0 6px;
+}
+
+.social-media-row2 ul li .fa {
+    font-size: 30px;
+    line-height: 60px;
+    transition: .6s;
+    color: #000;
+}
+
+.social-media-row2 ul li .fa:hover {
+    color: white;
+}
+
+.social-media-row2 ul li a {
+    position: relative;
+    display: block;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: white;
+    text-align: center;
+    transition: .6s;
+    box-shadow: 0 5px 4px rgba(0, 0, 0, .5);
+}
+
+.social-media-row2 ul li a:hover {
+    transform: translate(0, -10px);
+}
+
+.social-media-row2 ul li:nth-child(1) a:hover {
+    background-color: #3B5999;
+}
+
+.social-media-row2 ul li:nth-child(2) a:hover {
+    background-color: #55ACEE;
+}
+
+.social-media-row2 ul li:nth-child(3) a:hover {
+    background-color: #E4405F;
+}
+
+.social-media-row2 ul li:nth-child(4) a:hover {
+    background-color: #CD201F;
+}
+
+.social-media-panel {
+    box-shadow: 0 3px 20px rgba(0, 0, 0, 0.5);
+    border-radius: 12px;
+    background-color: #00ADB5;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.social-media-img {
+    margin-bottom: 8px;
+    font-size: 65px;
+    color: black;
+}
+
+.icon-text{
+    text-align: center;
+}
+
+
+
+/* Footer */
+.footer-bg-color {
+    background-color: #393E46;
+    color: white;
+    padding-top: 30px;
+    background-position: bottom;
+}
+
+.footer-bg-color .container {
+    font-family: 'Poppins', sans-serif;
+}
+
+.footer-h2 {
+    color: #FCBA03;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.footer-h3 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    font-weight: 600;
+    color: #FCBA03;
+}
+
+.footer-contact {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 15px;
+    margin-bottom: 10px;
+}
+
+.footer-useful {
+    margin-bottom: 7px;
+}
+
+.footer-useful a{
+    color: white;
+    text-decoration: none;
+    font-size: 15px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    transition: 0.5s ease;
+}
+
+.footer-useful a:hover {
+    color: #FCBA03;
+}
+
+.social-media ul{
+    display: inline-block;
+}
+
+.social-media ul li {
+    float: left;
+    margin-right: 12px;
+}
+
+.social-media ul li a {
+    font-size: 25px;
+    color: white;
+    letter-spacing: 1.6px;
+    background: transparent;
+    -moz-transition: all 0.5s ease-in-out 0s;
+    -mz-transition: all 0.5s ease-in-out 0s;
+    -o-transition: all 0.5s ease-in-out 0s;
+    -webkit-transition: all 0.5s ease-in-out 0s;
+    transition: all 0.5s ease-in-out 0s;
+}
+
+.social-media ul li a:hover {
+    color: #FCBA03;
+}
+
+input[type=text] {
+    height: 32px;
+    border-radius: 3px;
+    width: 180px;
+    float: left;
+}
+
+input[type=text]::placeholder {
+    color: #999;
+}
+
+.footer-button {
+    transition: all 0.5s ease-in-out;
+    font-size: 10px;
+    margin-left: 4px;
+    margin-bottom: -2px;
+    height: 32px;
+}
+.footer-copyright {
+    text-align: center;
+    font-size: 12px;
+    color: #999;
+    border-top: 1px solid rgb(255, 255, 255, 0.8);
+    margin-top: 30px;
+}
+
+
+/* Dekstop Version */
+@media (min-width: 992px) { 
+    .jumbotron{
+        margin-top: -90px;
+        height: 890px;
+    }
+
+    .social-media-row2 ul li {
+        list-style: none;
+        margin: 0 15px;
+    }
+
+    .footer-copyright {
+        margin-top: 1px;
+    }
+}

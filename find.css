@@ -1,0 +1,145 @@
+body{
+  margin-top:20px;
+  color: #1a202c;
+  text-align: left;
+  background-color: #d4f0e6;
+  font-family: 'Poppins', sans-serif;
+}
+.cntc{
+  margin-top: 10px;
+  font-weight: bold;
+  color: white;
+  font-size: 25px;
+  text-decoration: none;
+}
+.asa1{
+  background-color: #ffe066;
+  padding: 20px;
+  margin-top: -15px;
+}
+.asa{
+  background-color: #c4c4c4;
+  padding: 20px;
+  margin-top: -15px;
+}
+h6{
+  margin-top: 40px;
+  font-weight: bold;
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+.ala{
+  margin-top: 20px;
+}
+iframe{
+  margin-top: 40px;
+  margin-right: auto;
+}
+.boxline{
+  background-color: white;
+  width: 100%;
+  padding: 15px;
+  margin-bottom: 80px;
+}
+.lala{
+  font-size: 28px;
+}
+
+/* Footer */
+.footer-bg-color {
+  background-color: #393E46;
+  color: white;
+  padding-top: 30px;
+  background-position: bottom;
+}
+
+.footer-bg-color .container {
+  font-family: 'Poppins', sans-serif;
+}
+
+.footer-h2 {
+  color: #FCBA03;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.footer-h3 {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 20px;
+  font-weight: 600;
+  color: #FCBA03;
+}
+
+.footer-contact {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 15px;
+  margin-bottom: 10px;
+}
+
+.footer-useful {
+  margin-bottom: 7px;
+}
+
+.footer-useful a{
+  color: white;
+  text-decoration: none;
+  font-size: 15px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  transition: 0.5s ease;
+}
+
+.footer-useful a:hover {
+  color: #FCBA03;
+}
+
+.social-media ul{
+  display: inline-block;
+}
+
+.social-media ul li {
+  float: left;
+  margin-right: 12px;
+}
+
+.social-media ul li a {
+  font-size: 25px;
+  color: white;
+  letter-spacing: 1.6px;
+  background: transparent;
+  -moz-transition: all 0.5s ease-in-out 0s;
+  -mz-transition: all 0.5s ease-in-out 0s;
+  -o-transition: all 0.5s ease-in-out 0s;
+  -webkit-transition: all 0.5s ease-in-out 0s;
+  transition: all 0.5s ease-in-out 0s;
+}
+
+.social-media ul li a:hover {
+  color: #FCBA03;
+}
+
+input[type=text] {
+  height: 32px;
+  border-radius: 3px;
+  width: 180px;
+  float: left;
+}
+
+input[type=text]::placeholder {
+  color: #999;
+}
+
+.footer-button {
+  transition: all 0.5s ease-in-out;
+  font-size: 10px;
+  margin-left: 4px;
+  margin-bottom: -2px;
+  height: 32px;
+}
+.footer-copyright {
+  text-align: center;
+  font-size: 12px;
+  color: #999;
+  border-top: 1px solid rgb(255, 255, 255, 0.8);
+  margin-top: 8px;
+}

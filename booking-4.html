@@ -1,0 +1,159 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+    <!-- My CSS -->
+    <link rel="stylesheet" href="style_booking.css">
+
+    <title>Booking</title>
+  </head>
+  <body>
+    <!-- Jumbotron -->
+    <div class="jumbotron jumbotron-fluid">
+       <div class="container">
+         <h1 class="display-4">Hi <span>Friend</span><br><span>Where</span> You Will Go?</h1>
+      </div>
+    </div>
+
+    <!-- Content -->
+    <sectio class="content">
+      <div class="container">
+        <div class="row justify-content-center">
+          <!-- Step -->
+          <div class="col-lg-3">
+            <div class="number d-none d-lg-block">
+              <div class="row justify-content-center card step">
+                <div class="col-2 step active">
+                  <img src="img/1.png" alt="1">
+                </div>
+                <div class="col-8 text-center">
+                  <p>Fill In</p>
+                </div>
+              </div>
+            </div>
+            
+            <div class="number d-none d-lg-block">
+              <div class="row justify-content-center card step">
+                <div class="col-2 step">
+                  <img src="img/2.png" alt="2">
+                </div>
+                <div class="col-8 text-center">
+                  <p>Choose</p>
+                </div>
+              </div>
+            </div>    
+            
+            <div class="number d-none d-lg-block">
+              <div class="row justify-content-center card step">
+                <div class="col-2 step">
+                  <img src="img/3.png" alt="3">
+                </div>
+                <div class="col-8 text-center">
+                  <p>Contact</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="number d-none d-lg-block">
+              <div class="row justify-content-center card step active">
+                <div class="col-2 step">
+                  <img src="img/4.png" alt="4">
+                </div>
+                <div class="col-8 text-center">
+                  <p>Payment</p>
+                </div>
+              </div>
+            </div>            
+
+            <div class="number d-none d-lg-block">
+              <div class="row justify-content-center card step">
+                <div class="col-2 step">
+                  <img src="img/5.png" alt="5">
+                </div>
+                <div class="col-8 text-center">
+                  <p>Invoice</p>
+                </div>
+              </div>
+            </div>   
+            
+            <div class="visText d-lg-none d-xl-blockk">
+              <p>Step 4 : Payment</p>
+            </div>
+          </div>
+          <!-- End Step -->
+          <!-- Main Content -->
+          <div class="col-lg-7 cardMain">
+            <div class="container payDetails">
+              <h4>Payment Details</h4>
+              
+              <div class="priceList">
+                <table class="table table-hover">
+                  <thead>
+                    <tr>
+                      <th scope="col">Name</th>
+                      <th scope="col">Qty</th>
+                      <th scope="col">Subtotal</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td>Batik Airline</td>
+                      <td>1</td>
+                      <td>Rp 700.000</td>
+                    </tr>
+                    <tr>
+                      <td>Tax</td>
+                      <td>1</td>
+                      <td>Rp 50.000</td>
+                    </tr>
+                  </tbody>
+                  <thead>
+                    <tr class="table-info">
+                      <th scope="col">Total</th>
+                      <th scope="col"></th>
+                      <th scope="col">Rp 750.000</th>
+                    </tr>
+                  </thead>
+                </table>
+              </div> 
+              
+              <div class="methodPayment">
+                <button type="button" class="btn" id="bca" onclick="bankBtnBCA()"><img src="img/bca.png" alt="BCA"></button>  
+                <button type="button" class="btn" id="mandiri" onclick="bankBtnMandiri()"><img src="img/mandiri.jpg" alt="BCA"></button> 
+
+                <form>
+                  <label for="exampleFormControlInput1">Account Number</label>
+                  <input type="text" class="form-control" id="name" placeholder="Your Account Number">
+                </form>
+              </div>
+
+              <button type="button" class="btn btn-info" onclick="pay()">Pay</button>
+            </div>
+          </div>
+          <!-- End Main Content -->
+        </div>
+      </div>
+    </section>
+    <!-- End Content -->
+
+    
+
+
+
+
+    <!-- My JS -->
+    <script src="script_booking.js"></script>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+  </body>
+</html>
